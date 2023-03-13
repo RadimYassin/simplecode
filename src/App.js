@@ -1,8 +1,19 @@
 import React from 'react'
+import GlobaleStyle, { Container } from './GlobaleStyle';
+
+
 function App() {
   return (
     <div className="App">
-         <h1>hello</h1>
+    <GlobaleStyle/>
+
+   
+    <Container>
+        hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+         
+    </Container>
+ 
+  
     </div>
   );
 }
