@@ -1,36 +1,24 @@
 import styled ,{createGlobalStyle} from "styled-components";
 
 
- const GlobleStyle=createGlobalStyle`
+const GlobleStyle=createGlobalStyle`
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:sans-serif;
 }
-
-
-
-
 `
-export default GlobleStyle
-export const  Container=styled.div`
 
-
+export const Container=styled.div`
 z-index:1;
 width:100%;
-max-width:1300px;
-margin-left:auto;
-margin-right:auto;
-padding-left:50px;
-padding-right:50px;
+margin: 0 auto;
+padding: 0 50px;
 
 @media screen and (max-width:991px) {
-    padding-left:30px;
-padding-right:30px;
+   padding : 0 auto;
 }
-
-
-
 `
+export default GlobleStyle
 

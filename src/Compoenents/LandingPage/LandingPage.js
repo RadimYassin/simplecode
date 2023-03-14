@@ -1,6 +1,7 @@
-import { Typography, AppBar, Card, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, CardActionArea } from '@mui/material';
+import { Typography,  Card, CardContent, CardMedia, CssBaseline, Grid, Container, CardActionArea } from '@mui/material';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack'
+import Services from '../Services/Services';
 const LandingPage = () => {
 
     return (
@@ -82,7 +83,7 @@ const LandingPage = () => {
                                 </Grid>
                             </Grid>
                         </div>
-
+                         <Services/>
                     </Container>
 
                 </div>
