@@ -1,9 +1,10 @@
-import React from 'react'
-import LandingPage from './LandingPage';
+
+import React from 'react';
+import Carousel from './components/Carousel/Carousel';
 function App() {
   return (
     <>
-      <LandingPage />
+      <Carousel />
     </>
   );
 }
